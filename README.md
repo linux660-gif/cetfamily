@@ -1,5 +1,5 @@
-#CET FAMILY
-#Table of Contents
+# CET FAMILY
+# Table of Contents
 
     Project Overview
     Features
@@ -14,7 +14,7 @@
     License
     Acknowledgements
 
-Project Overview
+# Project Overview
 
 A brief description of the project, its purpose, and main functionalities.
 Features
@@ -23,20 +23,20 @@ Features
     Feature 2
     Feature 3
 
-Tech Stack
-Frontend:
+# Tech Stack
+# Frontend:
     React
     TypeScript
     Vite
 
-Backend:
+# Backend:
     Python
     Flask
 
-Database:
+# Database:
     SQLite or PostgreSQL
 
-Project Structure
+# Project Structure
 
 arduino
 
@@ -63,39 +63,39 @@ root
 ├── .gitignore
 ├── README.md
 
-Prerequisites
+# Prerequisites
 
     Node.js
     Yarn
     Python
     SQLite or PostgreSQL
 
-Installation
-Frontend
+# Installation
+# Frontend
 
     Navigate to the frontend directory:
 
-  # bash
+bash
 
 cd frontend
 
-Install dependencies:
+# Install dependencies:
 
-# bash
+bash
 
 yarn install
 
-Start the development server:
+# Start the development server:
 
-# bash
+bash
 
     yarn dev
 
-Backend
+# Backend
 
     Navigate to the backend directory:
 
-   # bash
+   bash
 
 cd backend
 
@@ -105,34 +105,34 @@ Create a virtual environment:
 
 python -m venv venv
 
-Activate the virtual environment:
+# Activate the virtual environment:
 
-For Windows:
+# For Windows:
 
-# bash
+bash
 
 venv\Scripts\activate
 
-For macOS/Linux:
+# For macOS/Linux:
 
-# bash
+bash
 
 source venv/bin/activate
 
-Install dependencies:
+# Install dependencies:
 
 bash
 
 pip install -r requirements.txt
 
-Start the Flask server:
+# Start the Flask server:
 
 bash
 
     flask run
 
-Usage
-Frontend
+# Usage
+# Frontend
 
     Ensure the Vite development server is running:
 
@@ -142,17 +142,17 @@ Frontend
 
     #Open http://localhost:3000 in your browser.
 
-Backend
+# Backend
 
     Ensure the Flask server is running:
 
-   # bash
+   bash
 
     #flask run
 
     #The API will be accessible at http://localhost:5000.
 
-API Documentation
+# API Documentation
 
 Describe the API endpoints and their usage.
 Example Endpoint
@@ -167,7 +167,7 @@ GET /api/example
       "data": "example data"
     }
 
-Database Schema
+# Database Schema
 Example Table
 users
 
@@ -175,7 +175,7 @@ users
     name: Text
     email: Text, Unique
 
-Example Table
+# Example Table
 posts
 
     id: Integer, Primary Key
@@ -183,7 +183,7 @@ posts
     title: Text
     content: Text
 
-Contributing
+# Contributing
 
     Fork the repository.
     Create a new branch:
