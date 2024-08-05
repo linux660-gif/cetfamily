@@ -1,0 +1,61 @@
+/* src/index.css or src/App.css */
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.app-container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    margin-top: auto;
+    background-color: #54545f;
+    padding: 20px;
+    color: #000;
+    padding-top: 10px;
+}
+
+/* src/index.css */
+:root {
+    --background-color: #ffff;
+    --text-color: #000000;
+    --card-background: #f0f0f0;
+    --card-border: #ccc;
+}
+
+[data-theme="dark"] {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --card-background: #1e1e1e;
+    --card-border: #444;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card {
+    background-color:rgb(228, 94, 94);
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    margin-top: 5%;
+    
+}
+
+
+
+
+

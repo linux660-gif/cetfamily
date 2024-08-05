@@ -1,0 +1,13 @@
+/* src/Navbar.css */
+.theme-switch {
+    font-size: 24px;
+    color: var(--text-color);
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.navbar {
+    transition: background-color 0.3s, color 0.3s;
+}
